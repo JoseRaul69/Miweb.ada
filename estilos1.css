@@ -16,7 +16,11 @@ body {
 
 header {
     width: 100%;
+
     height: 50px;
+
+    height: 100px;
+
     background:black;
     color: red;
     
@@ -27,7 +31,11 @@ header {
 }
 
 .contenedor {
+
     width: 100%;
+
+    width: 90%;
+
     margin: auto;
     overflow-y: auto;
     overflow-x: hidden
@@ -47,6 +55,7 @@ section {
     width: 100%;
     margin-bottom: 25px;
 }
+
 
 
 
@@ -105,17 +114,29 @@ header label {
 
 
 
+
 #banner {
+
     margin-top: 50px;
     position: relative;
     width: 120%;
     height: 200px;
+
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+
     
 }
 
 #banner img {
     width: 100%;
+
     height: 100px;
+
+    height: 100%;
+
 }
 
 #banner .contenedor {
@@ -146,6 +167,9 @@ header label {
 
 
 
+
+
+
 #bienvenidos {
     text-align: center;
 }
@@ -159,6 +183,7 @@ header label {
     margin-bottom: 10px;
     border: 6px ridge red;
 }
+
 
 
 
@@ -219,7 +244,9 @@ input{
     background: black;
     border-style: none;
     color: white;
+
 }
+
 
 
 
@@ -360,6 +387,7 @@ footer .contenedor {
 
 
 
+
 @media (min-width:1024px) {
     .menu {
         position: static;
@@ -387,6 +415,7 @@ footer .contenedor {
         }
 
 
+
 @media (min-width:480px) {
     #banner h2 {
         font-size: 40px;
@@ -396,6 +425,8 @@ footer .contenedor {
         margin-top: 25px;
     }
 }
+
+
 
 
 
@@ -414,16 +445,12 @@ footer .contenedor {
 }
 
 
-
-
 @media (min-width:1024px) { 
     #banner img {
         margin-top: -200px;
     }
 }
 
-  
- 
 
 
 
@@ -439,7 +466,62 @@ footer .contenedor {
     }
 }
 
+#menu-bar {
+    display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51,51,51,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.menu a:hover {
+    background: rgba(255,255,255,0.3);
+}
+
 #menu-bar:checked ~ .menu {
     transform: translateX(0%);
 }
-}}
+
+
+@media (min-width:1024px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+    
+    .menu a {
+        border: none;
+    }
+    
+    header label { 
+        display: none;
+    }
+}
+    }}
