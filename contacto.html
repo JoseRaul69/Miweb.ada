@@ -3,41 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
+    <title>Reservas</title>
+    <style>
+        *{background-color: blueviolet;
+        }
+
+        html{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+   
+   }
+   body{
+    background-color: purple;
+   }
+   .cont1{
+    max-width: 450px;
+    height: auto;
+    background-color: black;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+   }
+   .form-top{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-top: solid .4rem black;
+    margin-bottom: 1rem;
+   }
+   .form-top h2{
+   font-weight: bold;
+   color: white;
+   font-size: 18px;
+   
+   }
+   h2 span{
+    color: purple;
+   }
+   .input, .btn-submit, .btn-reset, fieldset{
+    background-color: white;
+    padding: .5rem;
+    margin: .5rem 0;
+    border:none;
+    border-bottom: solid black .2rem;
+    transition: all .5s;
+   }
+    </style>
+
+
 </head>
 <body>
-    <div class="contenedor">
-   <form action="">
-
-    <div class="form-header">
-        <h1 class="from-title"><span>Contactos</span></h1>
-    </di>
-    
+  
 
 
+          <div class="cont1">
+            <div class="form-top">
+             <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></h2>
+       
+            </div>
+            <form class="form-reg" action="">
+             <input class="input" type="text" placeholder="Nombre" required="" autofocus="">
+             <input class="input" type="text" placeholder="Apellidos " required="" autofocus="">
+             <input class="input" type="email" placeholder="Correo " required="">
+             <input class="input" type="tel" placeholder="Telefono" required="">
+             <input class="input" type="text" placeholder="Contraseña" required=""><br>
+             <input type="text" placeholder="Tipo de usuario" list="tipouser">
+             <datalist id="tipouser">
+               <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Administrador</font></font></option>
+               <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Usuario</font></font></option>
+             </datalist><br>
+       
+             <fieldset>
+                 <legend><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sexo </font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font>(Seleccione sexo)</font></font></em></legend>
+                 <input type="radio" name="sexo" value="F"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Femenino
+                 </font></font><input type="radio" name="sexo" value="M"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Masculino
+             </font></font></fieldset> <br>
+       
+             <textarea name="coment" placeholder=" comentarios: " cols="30" rows="10"></textarea>
+            
+       
+             <div class="btn-form">
+              <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input class="btn-submit" type="submit" value="Enviar"></font></font>  
+              <input class="btn-reset" type="reset" value="Limpiar">
+             </div>
+       
+            </form>
+           </div>
+
+           
 
 
-        <label for="Nombre Completo"class="form-label">Nombre Completo:</label>
-        <input type="text" id="nombre completo"class="form-imput" placeholder="Escriba su nombre">
-
-        
-        <label for="correo"class="form-label">Correo:</label>
-        <input type="email"class="form-imput" id="correo" placeholder="Escriba su correo">
-
-        <label for="Telefono"class="form-label">Telefono:</label>
-        <input type="tel" class="form-imput" id="Telefono" placeholder="Escriba su Telefono">
-        
-        <label for="fecha"class="form-label">Fecha actual:</label>
-        <input type="date" class="form-imput" id="fecha" placeholder=" ">
 
 
-        <label for="informacion del lugaro"class="form-label">informacion del lugar:</label>
-        <select name="informacion del lugar">
-            <option value="0">...</option>
-            <option value="1">usuario</option>
-            <option value="2">...</option>
-            <option value="3">PUT</option>
-          </select>
+
+
+
+
 
       </form> 
     </div>
@@ -46,4 +106,7 @@
 
     </form>
 </body>
+<script>
+    document.write(new Date().getDate()+ "/" +(new Date().getMonth()+1)+ "/" +new Date().getFullYear());
+</script>
 </html>
