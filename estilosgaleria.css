@@ -4,7 +4,7 @@
     font-family: arial;
 }
 body{
-    background-color: rgb(122, 50, 205);
+    background-image: url(/img/galeriagg.webp);
 }
 
 #content{
@@ -19,7 +19,7 @@ body{
     margin: 10px;
     text-align: center;
     margin-top: 10px;
-    background: red;
+    background: purple;
     color: white ;
 }
 

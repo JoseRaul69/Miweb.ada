@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    ;
 }
 
 header {
@@ -377,7 +378,7 @@ footer .contenedor {
 }
 
 .sociales a {
-    color:blue;
+    color:red;
     text-decoration: none;
 }
 
