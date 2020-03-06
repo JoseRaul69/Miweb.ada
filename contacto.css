@@ -1,0 +1,42 @@
+*{background-color: blueviolet;
+}
+
+html{
+font-size: 16px;
+font-family: 'Lato', sans-serif;
+
+}
+body{
+background-image: url(/img/fondoindex.jpg);
+}
+.cont1{
+max-width: 450px;
+height: auto;
+background-color: black;
+margin: 5% auto;
+padding-bottom: 1rem;
+}
+.form-top{
+width: 100%;
+text-align: center;
+padding: 2rem 0 1rem;
+border-top: solid .4rem black;
+margin-bottom: 1rem;
+}
+.form-top h2{
+font-weight: bold;
+color: white;
+font-size: 18px;
+
+}
+h2 span{
+color: purple;
+}
+.input, .btn-submit, .btn-reset, fieldset{
+background-color: white;
+padding: .5rem;
+margin: .5rem 0;
+border:none;
+border-bottom: solid black .2rem;
+transition: all .5s;
+}

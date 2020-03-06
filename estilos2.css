@@ -1,14 +1,58 @@
 body{
     background-color: black;
-    color :red;
+    color :black;
     
+     
 }
+
+
+    
+
+.contenedorimg{
+
+    position: center;
+    top:150px;
+    margin:auto;
+    width: 1500px;
+    height: 500px;
+    background-image: url(/img/vistahabitacion1.jpg);
+}
+#titulo{
+    position: absolute;
+    left: 100px;
+    top:150px;
+    color: black;
+    font-family: 'Cinzel', serif;
+}
+
+#estrellas{
+    position: absolute;
+    left: 180px;
+    top:200px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
 #habitacion1{
     background-color:yellowgreen;
-    color:black;
+    
+        font-family: 'Cinzel', serif;
+        left: 180px;
+        top:200px;
+    
 
 }
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cinzel', serif;
+    left: 180px;
+    top:200px;
 }
     
