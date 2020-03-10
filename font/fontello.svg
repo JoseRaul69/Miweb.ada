@@ -6,7 +6,7 @@
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="diamante" unicode="&#xf219;" d="M118 421l348-371-167 371h-181z m453-430l195 430h-389z m-271 502l114 214h-146l-161-214h193z m377-443l348 371h-181z m-296 443h381l-114 214h-153z m462 0h193l-161 214h-146z m78 271l215-286q7-10 7-23t-10-22l-535-572q-10-11-27-11t-26 11l-535 572q-9 9-10 22t7 23l215 286q10 15 28 15h643q18 0 28-15z" horiz-adv-x="1142.9" />
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
 </font>
 </defs>
 </svg>
